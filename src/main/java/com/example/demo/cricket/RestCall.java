@@ -13,8 +13,8 @@ public class RestCall {
 	public static void main(String[] args) throws JSONException {
 		RestTemplate restTemplate = new RestTemplate();
 		String url = "https://api-eu1.tatum.io/v3/ethereum/wallet";
-		String project_key = "RS_P_1545962206745726979";
-		String api_key = "RS5:f726436167fc7ea9a7e3aaab3e7cbec7";
+		String project_key = "YOUR_PROJECT_KEY";
+		String api_key = "YOUR_API_KEY";
 		String body = "{\n  \"api_key\": \"" + api_key + "\"\n}";
 		String token="";
 
